@@ -1,0 +1,27 @@
+*		{margin:0;	padding:0;}
+header	{background:rgb(142, 142, 226);	height:200px;}
+nav		{background:rgb(125, 156, 125);}
+main		{clear:both;}
+article	{background:rgb(36, 221, 221);margin-left:200px;	min-height:300px;}
+aside	{background:rgb(236, 7, 7);width:200px;min-height:300px;float:left;}
+footer	{background:rgb(243, 243, 136);}
+
+
+ul 			{display: block;   margin: 0;   padding: 0;   list-style: none; font-size: 0;}
+ul.menu > li 	{ display:inline-block;  font-size:16px;  }
+ul.menu > li > a 	{display: block;   padding: 10px;   color: rgb(7, 5, 5), ;  
+					background-color: rgb(255, 0, 191);  text-decoration: line-through; }
+ul.menu > li > a:hover {background-color: rgb(4, 0, 255);}
+
+/*Задания:
+1+ Поменять цвет меню.
+2.+ Поменять подчеркивание ссылки - сделать "зачеркивание"
+3. +Заменить цвет, фона верхнего меню при наведении на синий.
+4. +Сделать изменение фона при наведение на пункты меню (выпадающих элементов).
+
+*/
+
+.wrapper{
+	width:900px;
+	margin: 0 auto;
+}
